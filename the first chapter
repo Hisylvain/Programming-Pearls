@@ -1,0 +1,21 @@
+'''
+第一章的讲了一个实际的例子，如何在磁盘中进行排序。
+要求如下：
+输入：一个最多包含n个正整数的文件，每个数都小于n，其中n=10^7.如果在输入文件中有任何整数重复出现就是致命错误。没有其他数据与该整数相关联。
+输出：按升序排列的输入整数列表
+约束：最多有大约1MB的内存空间可以使用，有充足的z磁盘存储空间可用。运行时间最多几分钟，运行时间为10秒就不需要进一步优化
+
+伪代码如下：
+#initialize set to empty
+  for i = [0,n)
+    bit[i] = 0
+#insert present elements into the set
+  for each i in the input file
+    bit[i] = 1
+#write sorted output
+  for i =[0,n)
+    if bit[i] == 1
+      write i on the output file
+'''
+
+
