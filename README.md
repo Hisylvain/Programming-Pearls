@@ -1,0 +1,3 @@
+# Programming-Pearls
+这是我用来记录阅读Programming Pearls 的读书笔记
+里面会有一些用python改写的算法还有一些书上习题的解题思路答案
